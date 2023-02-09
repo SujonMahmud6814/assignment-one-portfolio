@@ -59,7 +59,8 @@ section.about {
     padding: 0 200px;
 }
 .about-description {
-    padding-left: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .about-description ul {
     list-style: none;
