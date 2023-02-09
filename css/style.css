@@ -6,11 +6,11 @@
 }
 
 /* Banner section style start  */
-.banner{
-    padding: 200px 230px;
+.banner {
+    padding: 300px 250px;
     background-repeat: no-repeat;
-    background-image: url('../images/banner/banner1.png');
-}
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;}
 
 .banner-info {
     padding-left: 50%;
