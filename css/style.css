@@ -1,0 +1,203 @@
+ /* Global Declaration style */
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Banner section style start  */
+.banner{
+    padding: 200px 230px;
+    background-repeat: no-repeat;
+    background-image: url('../images/banner/banner1.png');
+}
+
+.banner-info {
+    padding-left: 50%;
+}
+
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 10px;
+}
+
+.banner-description{
+    color: #444343;
+    margin-bottom: 10px;
+}
+
+.btn{
+    border: none;
+    padding: 18px 35px;
+    border-radius: 10px;
+    background-color: #F15B22;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* About Section styles  */
+
+section.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section.about {
+    margin: 100px auto;
+    padding: 0 200px;
+}
+.about-description {
+    padding-left: 50px;
+}
+.about-description ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.tikMark{
+    display: inline-block;
+    color: #16D887;
+    height: 24px;
+    width: 24px;
+    
+}
+
+/* Plan section style start  */
+
+.text-center{
+    text-align: center;
+} 
+ 
+.plan-section {
+    margin: 100px auto;
+    padding: 0 200px;
+}
+
+h3.section-title.text-center {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.plan-section {
+    max-width: 1140px;
+    margin: 50px auto 100px;
+}
+
+.my-plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+     margin-top: 50px;
+}
+
+h4.plan-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+p.plan-info {
+    font-size: 25px;
+}
+
+/* Contact Section style start  */
+
+section.contact-section {
+    max-width: 1140px;
+    margin: 150px auto;
+}
+
+.contact-content {
+    padding: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgba(253, 1, 148, 0.801), rgba(236, 163, 218, 0.73)),url('../images/watch.png');
+} 
+.contact-content h3 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+.contact-content button {
+    background-color: #fff;
+    color: #F15B22;
+}
+
+/* Footer section style start  */
+
+section.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #151414;
+    color: #fff;
+    padding: 150px 0px;
+}
+
+.future-section { 
+    width: 50%;
+    padding-right: 50px;
+}
+
+.subscription-section {
+    width: 50%;
+    margin-left: 200px;
+}
+p.section-description {
+    margin-bottom: 10px;
+}
+
+p.email {
+    margin-bottom: 10px;
+}
+
+p.phone {
+    margin-bottom: 10px;
+}
+
+.group-icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.social-icon {
+    margin-right: 20px;
+}
+
+.social-icon {
+    margin-right: 20px;
+}
+
+input[type="email"] {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border: 2px solid #fff;
+    background: #000;
+    margin-top: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #F15B22;
+}
